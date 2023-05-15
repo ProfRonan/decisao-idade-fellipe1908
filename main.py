@@ -6,10 +6,10 @@ maior = False
 velho = False
 
 if idade < 0:
-    print("impossível!")
+    print("Impossível!")
     impossivel = True
 if idade < 18:
-    print("não precisa se alistar.")
+    print("Não precisa se alistar.")
     menor = True 
 if 18 < idade < 65:
     print("Não esqueça de votar na proxima eleição.")
@@ -18,6 +18,6 @@ if idade > 65:
     print("Vá descansar.")
     velho = True
 if not(impossível or menor or maior or velho):
-    print("eita!") 
+    print("Eita!") 
 
 
